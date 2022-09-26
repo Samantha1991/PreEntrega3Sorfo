@@ -93,11 +93,16 @@ nav {
   font-weight: bold;
 }
 
-#footer-cont {
+#section-cont {
   background-image: linear-gradient(to left, pink , white);
 
 }
 
+footer {
+  display:flex ;
+  justify-content: center;
+  text-align: center;
+}
  /* Página about-me*/ 
 
 main {
@@ -264,7 +269,7 @@ p {
   
 
 
-#footer-about-me {
+#section-about-me {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,25 +282,26 @@ p {
     transition: all 0.5s;
 }
 
-#footer-about-me nav ul li a:hover {
+#section-about-me nav ul li a:hover {
     color:rgb(3, 50, 112);
     font-size: 22px;
 }
 
-#footer-about-me nav ul li a {
+#section-about-me nav ul li a {
     text-decoration: none;
     color: rgb(26, 98, 194);
     font-size: 20px;
     font-weight: bold;
 }
 
-#footer-about-me nav ul li {
+#section-about-me nav ul li {
     list-style-type: none;
     display: inline;
     padding: 0px 20px;
 }
 
-#footer-name01 {
+/*Página project-name01*/
+#section-name01 {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -307,19 +313,19 @@ p {
     transition: all 0.5s;
 }
 
-#footer-name01 nav ul li a:hover {
+#section-name01 nav ul li a:hover {
 font-size: 22px;
 color:rgb(3, 50, 112);
 }
 
-#footer-name01 nav ul li a {
+#section-name01 nav ul li a {
     text-decoration: none;
     color: rgb(26, 98, 194);
     font-size: 20px;
     font-weight: bold;
 }
 
-#footer-name01 nav ul li {
+#section-name01 nav ul li {
     list-style-type: none;
     display: inline;
     padding: 0px 20px;
@@ -406,6 +412,7 @@ color:rgb(3, 50, 112);
     }
   }
   
+/*Página project-name02*/
 
 #img-name02 {
     width: 95%;
@@ -542,6 +549,8 @@ color:rgb(3, 50, 112);
     transform:rotateY(30deg)
 }
 
+/*Página Thank-you*/
+
 #body-page5{
     display: flex;
     flex-direction: row;
@@ -627,7 +636,7 @@ color:rgb(3, 50, 112);
   }
   
 
-#footer-page5 {
+#section-page5 {
     position: absolute;
     background-color: rgba(221, 198, 214, 0.815);
     width: 25%;
@@ -640,7 +649,7 @@ color:rgb(3, 50, 112);
     text-align: center;
  }
 
-#footer-page5 div {
+#section-page5 div {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -925,7 +934,7 @@ h1  {
     }
 }
 
-#footer-page5 {
+#section-page5 {
     animation-duration: 3s;
     animation-name: puff-in-top ;
     animation-iteration-count: infinite;
@@ -975,7 +984,7 @@ h1  {
   }
   
 
-#footer-cont {
+#section-cont {
     animation-duration: 3s;
     animation-name: slide-in-left;
     animation-iteration-count: infinite;
@@ -1042,7 +1051,7 @@ h1  {
       width: 90%;
     }
 
-    #footer-cont {
+    #section-cont {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1102,7 +1111,7 @@ h1  {
       width: 95%;
       margin: 0px 0px;
     }
-    #footer-name01 {
+    #section-name01 {
       display: flex;
       justify-content: center;
       width: 95%;
@@ -1218,7 +1227,7 @@ h1  {
       align-self: center;
     }
 
-    #footer-cont {
+    #section-cont {
       background-image: linear-gradient(to left, pink , white);
       position: absolute;
       width: 500px;
