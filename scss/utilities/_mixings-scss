@@ -1,0 +1,5 @@
+@mixin propiedades-grid($area, $justify, $align) {
+  grid-area: $area;
+  justify-self: $justify;
+  align-items: $align;
+}

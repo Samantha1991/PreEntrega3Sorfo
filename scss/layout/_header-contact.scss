@@ -1,0 +1,66 @@
+#header-page5 {
+        background-color: rgba(41, 212, 212, 0.445);
+        width: 17%;
+        height: 90vh;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+
+        #logo-index-p5 {
+          display: flex;
+          text-decoration: none;
+          list-style-type: none;
+          color: black;
+          font-size: 2.5em;
+          text-align: center;
+          vertical-align: middle;
+          justify-content: center;
+          margin-right: 20px;
+          font-weight: bold;
+        }
+      }
+      #header-page5 nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } 
+      #header-page5 nav ul li {
+        list-style-type: none;
+        padding: 20px 0px;
+      }
+        #header-page5 nav ul li a {
+          text-decoration: none;
+          color: rgb(26, 98, 194);
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 5px;
+        transition: all 0.5s;
+      }
+      
+      #header-page5 nav ul li a:hover {
+        font-size: 22px;
+        color:rgb(3, 50, 112);
+      }
+    
+      #ul-page5 {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        #ul-page5 li {
+          list-style-type: none;
+          display: inline;
+          padding: 0px 20px;
+        }
+
+        #ul-page5 li ul a {
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          color: rgb(26, 98, 194);
+          font-size: 20px;
+          font-weight: bold;
+        } 
+      }
